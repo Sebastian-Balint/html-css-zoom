@@ -1,0 +1,170 @@
+
+/* RESET */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* COMMON */
+
+body {
+    padding-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 100vh;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+h5 {
+    font-weight: normal;
+    margin: 0 10px;
+}
+
+
+/* HEADER */
+
+header {
+    height: 50px;
+    padding: 5px 5px 0 0;
+    text-align: end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
+
+.btn {
+    all: unset;
+    padding: 5px 6px;
+    border-radius: 6px;
+    font-size: 13px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #4a4a4a;
+}
+
+
+/* MAIN */
+
+
+.main {
+    height: calc(100% - 130px);
+    overflow-y: auto;
+}
+.container {
+    padding-bottom: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.users {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.user {
+    width: 250px;
+    padding: 10px 3px;
+
+}
+
+.user-info {
+    position: relative;
+}
+
+.user-info  img {
+    width: 100%;
+    display: block;
+    border-radius: 7px;
+
+}
+
+.naming {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+
+/*
+--------------
+FOOTER--------
+--------------
+*/
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    background-color: #222222;
+}
+
+.navfooter {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+
+footer .setting {
+    padding-right: 70px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+.icons > i{
+    margin-bottom: 10px;
+}
+
+.icons {
+    padding: 15px 10px;
+    display: inline-block;
+    font-size: 22px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#icongreen {
+    color: rgb(62, 189, 8);
+}
+
+.icons .arrow {
+    font-size: 15px;
+    line-height: 50px;
+}
+
+.end-meet {
+    display: flex;
+    justify-content: right;  
+}
+
+.btn2  {
+    all: unset;
+    display: inline-block;
+    height: 100%;
+    cursor: pointer;
+    background-color: #4a4a4a;
+    color: red;
+
+   
+}
